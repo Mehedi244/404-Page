@@ -1,0 +1,21 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: gray;
+}
+.btn{
+	border: solid blue;
+    padding: 3px;
+    border-radius: 20px;
+    outline: none;
+    max-width: 150px;
+    text-align: center;
+    margin-top: 24px;
+    
+    text-transform: uppercase;
+}
+.btn a{
+	text-decoration: none;
+}

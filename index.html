@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="">
+		
+	</style>
+</head>
+<body>
+  <div class="preloader">
+    <!--Background Image Add in preloader-spinner Class -->
+    <div class="preloader-spinner"></div>
+  </div>
+
+	<section id="Wrapper">
+		<div class="notfound">
+			<h1>404</h1>
+			<p>page not found</p>
+		</div>
+		
+		<a href="#">homepage</a>
+	</section>
+	
+
+
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+      
+      $('body').addClass('preloader-active');
+      
+      $(window).on('load', function() { 
+          $('.preloader').fadeOut();
+          $('.preloader-spinner').delay(350).fadeOut('slow');
+          $('body').removeClass('preloader-active');
+      });
+  </script>
+</body>
+</html>
